@@ -1,0 +1,25 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqnguyen829/npm-lab-houston-web-091619.git"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "steven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sqnguyen829/npm-lab-houston-web-091619/issues"
+  },
+  "homepage": "https://github.com/sqnguyen829/npm-lab-houston-web-091619#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
